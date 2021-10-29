@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="index.css" rel="stylesheet" />
+    <script language="javascript" src="index.js">
+    </script>
+    </head>
+    <title>JSON PlayList</title>
+    <body>
+      <heading> <h1>Kristin's Favorites</h1></heading>
+      <div class="betterLookingData">
+        <form id="form">
+          <h2 style="color: #1db954">User-Friendly Filter</h2>
+          <select name="genres" id="selection">
+            <option value="all">All Genres</option>
+            <option value="Kpop">KPop</option>
+            <option value="Jpop">JPop</option>
+            <option value="Cantopop">Cantopop</option>
+            </select>
+
+            <div class="button" id="filter">FILTER</div>
+            <div class="button" id="showAll">SHOW ALL</div>
+            <br></br>
+            <div id="aestheticData"></div>
+          
+        </form>
+      </div>
+      <div class="serializedData">
+        <h2 style="color: #1db954">Serialized Data</h2>
+        <p id="rawData"></p>
+      </div>
+    </body>
+</html>
